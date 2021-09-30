@@ -35,6 +35,17 @@
 #define GD_RESET_MENU				1
 #define GD_RESET_DEBUG				2
 
+// Type definitions
+
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned long u32;
+typedef unsigned long long u64;
+typedef signed char s8;
+typedef signed short s16;
+typedef signed long s32;
+typedef signed long long s64;
+
 // Struct definitions
 
 // Struct for GD_FINFO_SHORT_NAME
@@ -57,17 +68,6 @@ typedef struct
 	char	szAltName[13];		// short filename
 	char	szLongName[256];	// long filename
 } CGDFileInfoLong;
-
-// Type definitions
-
-typedef unsigned char u8;
-typedef unsigned short u16;
-typedef unsigned long u32;
-typedef unsigned long long u64;
-typedef signed char s8;
-typedef signed short s16;
-typedef signed long s32;
-typedef signed long long s64;
 
 // Function definitions
 
