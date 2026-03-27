@@ -20,7 +20,8 @@ and enable the external interrupt on Jerry by setting `J_EXTENA` on `J_INT`.
 
 Once installed you are free to use any functions available. Without calling `GD_InitGPURead` the `GD_FREAD_GPU` read modes will not function.
 
-Be aware when using the GPU based reads that data is read in 32 byte blocks per interrupt, so you need to make sure any buffer being read into can accomodate any over-read from the requested size upto a 32 byte multiplr.
+Be aware when using the GPU based reads that data is read in 32 byte blocks per interrupt, so you need to make sure any buffer being read into can accomodate any over-read from the requested size upto a 32 byte multiple.
+
 
 ## Simple File Example
 
